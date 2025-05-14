@@ -9,11 +9,16 @@
 
 .video-container{
     flex: 1;
+    flex-grow: 1;
+
 }
 
 .bottom-controls {
     background-color: black;
     flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
   
 .bottom-controls button {
@@ -34,5 +39,9 @@
 }
 
 .left-buttons {
+    display: flex;
+}
+
+.right-buttons {
     display: flex;
 }
