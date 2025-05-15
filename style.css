@@ -21,7 +21,7 @@
     align-items: center;
 }
   
-.bottom-controls button {
+.control-button {
     border: none;
     margin: 0;
     background-color: transparent;
@@ -31,7 +31,7 @@
     cursor: pointer;
 }
 
-.bottom-controls button i {
+.control-button__icon {
     display: flex;
     align-items: center;
     justify-content: center;
