@@ -6,8 +6,13 @@
 *.idea
 *Thumbs.db
 *.DS_Store
-*pyproject.toml
+*.venv
 *poetry.lock
 venv370
 .env
 images
+*venv
+.python-version
+pyproject.toml
+uv.lock
+server.py
